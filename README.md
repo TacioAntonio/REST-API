@@ -186,5 +186,5 @@ $  npm install path
 ``` 
 Template engine
 
-$ npm install nodemailer-express-handlebarsb
+$ npm install nodemailer-express-handlebars
 ``` 
