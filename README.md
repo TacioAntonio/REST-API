@@ -53,17 +53,17 @@ O Mongoose é uma ferramenta de modelagem de objetos do MongoDB, ele foi projeta
 
 > $ npm install mongoose
 
-## Robo 3T**
+## Robo 3T
 É a GUI (Graphical User Interface) do MongoDB com shell embutido.
 
 > Baixe ele no site oficial do [Robot 3T](https://robomongo.org/download)
 
-## BCrypt.js**
+## BCrypt.js
 É uma biblioteca de hash, que irá encriptar a senha.
 
 > $ npm install bcryptjs
 
-## Body-parser**
+## Body-parser
 O body-parser é um módulo capaz de converter o body da requisição para vários formatos. Um desses formatos é JSON. Node.js em si não sabe converter os dados da requisição em JSON.
 
 > $ npm install body-parser
@@ -119,7 +119,7 @@ Insomnia é um cliente REST multiplataforma é usado para testar requisições e
 >> Ficando base_url/projects
 
 {
- 	"email": "usuario@email.com"
+ 	  "email": "usuario@email.com",
     "token": "tokenFornecidoPeloBackEnd",
     "password": "newPassword"
 }
@@ -129,7 +129,6 @@ Insomnia é um cliente REST multiplataforma é usado para testar requisições e
 
 > Baixe ele no site oficial do [Insomnia](https://insomnia.rest/download/).
 
-
 ## Mailtrap
 Mailtrap é um falso servidor SMTP, é usado em nivel de desenvolvimento, não em produção. Crie uma conta no site oficial.
 
@@ -138,7 +137,7 @@ Mailtrap é um falso servidor SMTP, é usado em nivel de desenvolvimento, não e
 
 > $ npm install nodemailer
 
-**Fs - File System**
+## Fs - File System
 É usado para interagir com o sistema de arquivos.
 
 Uso comum para o módulo File System:
@@ -150,12 +149,12 @@ Uso comum para o módulo File System:
 
 > $  npm install fs
 
-**Path**
+## Path
 É usado para trabalhar com caminhos de arquivos e diretórios.
 
 > $  npm install path
 
-**Handlebars.js**
+## Handlebars.js
 É um sistema de template engine.
 
 > $ npm install nodemailer-express-handlebars
