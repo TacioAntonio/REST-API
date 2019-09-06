@@ -160,7 +160,7 @@ Uso comum para o módulo File System:
 > $ npm install nodemailer-express-handlebars
 
 ## Instalando
-> $ git clone https://github.com/TacioAntonio/REST-API.git 
-> $ cd REST-API
-> $ npm install
-> $ npm start
+$ git clone https://github.com/TacioAntonio/REST-API.git 
+$ cd REST-API
+$ npm install
+$ npm start
