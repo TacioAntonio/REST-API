@@ -161,6 +161,6 @@ Uso comum para o módulo File System:
 
 ## Instalando
 > $ git clone https://github.com/TacioAntonio/REST-API.git 
-$ cd REST-API
-$ npm install
-$ npm start
+> $ cd REST-API
+> $ npm install
+> $ npm start
