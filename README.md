@@ -158,3 +158,9 @@ Uso comum para o módulo File System:
 É um sistema de template engine.
 
 > $ npm install nodemailer-express-handlebars
+
+## Instalando
+> $ git clone https://github.com/TacioAntonio/REST-API.git 
+$ cd REST-API
+$ npm install
+$ npm start
