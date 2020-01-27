@@ -82,51 +82,6 @@ Gere um Hash MD5 e armazene em *auth.json*:
 
 ## Insomnia
 Insomnia é um cliente REST multiplataforma é usado para testar requisições em API.
-
-```json
->> Crie um WORKSPACE
-##########################################################################
->> Crie uma REQUEST chamada 'Register' que será um POST
->> Ela que chamará a http://localhost:3000/auth/register
-
->> Crie uma variável de ambiente
-{
-  "base_url": "http://localhost:3000"
-}
-
->> Ficando base_url/auth/register
-##########################################################################
->> Crie uma REQUEST chamada 'Authenticate' que será um POST
-
->> Ficando base_url/auth/authenticate
-##########################################################################
->> Crie uma REQUEST chamada 'Projects' que será um GET
-
->> Ficando base_url/projects
->> TESTANDO O TOKEN
->>> Coloque um HEADER: Authorization, Value: {qualquerValor}
-##########################################################################
->> Crie uma REQUEST chamada 'Forgot Password' que será um POST
-
->> Ficando base_url/auth/forgot_password
->> TESTANDO O FORGOT PASSWORD
-{
-	"email": "usuario@email.com"
-}
-##########################################################################
->> Crie uma REQUEST chamada 'Reset Password' que será um POST
-
->> Ficando base_url/projects
-
-{
- 	  "email": "usuario@email.com",
-    "token": "tokenFornecidoPeloBackEnd",
-    "password": "newPassword"
-}
-
->> Ficando base_url/auth/reset_password
-``` 
-
 > Baixe ele no site oficial do [Insomnia](https://insomnia.rest/download/).
 
 ## Mailtrap
